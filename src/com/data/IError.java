@@ -1,5 +1,7 @@
 package com.data;
 
 public interface IError {
-    //TODO
+    String[] getFields();
+    String getFieldValue(String fieldName);
+    boolean isDuplicate(IError error);
 }

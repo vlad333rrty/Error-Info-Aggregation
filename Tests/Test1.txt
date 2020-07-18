@@ -1,0 +1,5 @@
+name: java.lang.ArithmeticException
+cause: / by zero
+date: jul. 10, 2020 12:02:12 PM
+fixed: true
+stacktrace: at Main.g(Main.java:20) at Main.f(Main.java:12) at Main.main(Main.java:5)

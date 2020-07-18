@@ -1,16 +1,11 @@
 package com.data;
 
 public class Event {
-    private EventType type;
-    public Event(EventType type){
+    public Type type;
+    public Event(Type type){
         this.type=type;
     }
-
-    public EventType getType() {
-        return type;
-    }
-
-    public enum EventType{
-        GET_INFO,
+    public enum Type {
+        GET_INFO,GET_ERRORS,EXIT
     }
 }

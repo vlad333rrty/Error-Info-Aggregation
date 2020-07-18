@@ -1,7 +1,8 @@
 package com.modules;
 
 import com.data.Event;
+import com.rest.ServerException;
 
 public interface IInfoManager {
-    void output(Event event);
+    void displayInfo(Event event) throws ServerException;
 }
